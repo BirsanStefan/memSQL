@@ -1,0 +1,137 @@
+<mjml>
+  
+  <mj-head>
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" />
+    <mj-style inline="inline">
+      .verticalSeparator{
+        padding-left: 30px;
+        margin-left: 30px;
+        display: none;
+      }
+      .mainTitle div {
+        font-size: 34px !important;;
+        line-height: 42px !important;;
+      }
+      @media only screen and (max-width: 667px){
+        .mainTitle div {
+          font-size: 24px !important;
+          line-height: 30px !important;
+        }
+      }
+      .mainButton table tr td{
+        box-shadow: 0px 1.6071px 3.2142px rgba(0, 0, 0, 0.25);
+      }
+
+      .bottomButtons a:hover{
+        text-decoration: underline!important;
+      }
+      .bottomText a:hover{
+        text-decoration: underline!important;
+      }
+      
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#1B1A21">
+    <mj-raw>
+      <!-- Logo Top -->
+    </mj-raw>
+    <mj-section background-color="#1B1A21">
+      <mj-column>
+        <mj-image width="144px" src="images/logo.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Company Header -->
+    </mj-raw>
+    <mj-section background-color="#ffffff">
+      <mj-column width="600px">
+        <mj-text font-size="16px" color="#AA00FF" font-weight="700" text-transform="uppercase" letter-spacing="1px" align="center" font-family="Lato, Arial">Free O’Reilly eBook</mj-text>
+
+         <mj-text css-class="mainTitle" font-size="34px" line-height="42px" color="#1B1A21" font-weight="700" align="center" padding-bottom="25px" font-family="Lato, Arial">Streaming Systems: <br> The What, Where, When, and  <br> How of Large-Scale <br> Data Processing</mj-text>
+
+         <mj-button css-class="mainButton" href="#" font-size="14px" background-color="#880088" height="25px" font-weight="900" font-family="Lato, Arial" border-radius="4px">Download Now</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Main Image -->
+    </mj-raw>
+    <mj-section background-color="#ffffff">
+      <mj-column width="600px">
+        <mj-image src="images/image.jpg"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Main text -->
+    </mj-raw>
+    <mj-section background-color="#ffffff">
+      <mj-column width="600px">
+        <mj-text font-size="16px" line-height="24px" color="#1B1A21" font-family="Lato, Arial">Hi John,</mj-text>
+        <mj-text font-size="16px" line-height="24px" color="#1B1A21" font-family="Lato, Arial"> Operating in real time offers businesses the opportunity to improve the customer’s experience and gain competitive advantage. And recently, streaming systems have reached a level of maturity and usability sufficient for mainstream adoption. </mj-text>
+        <mj-text font-size="16px" line-height="24px" color="#1B1A21" font-family="Lato, Arial"> MemSQL is proud to offer this free O’Reilly ebook excerpt, Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing. We have made two chapters available which describe how streaming and batch data processing compare, as well as explain core principles and concepts required for robust out-of-order streaming data processing. </mj-text>
+        <mj-text font-size="16px" line-height="24px" color="#1B1A21" font-family="Lato, Arial"> We hope you enjoy this excerpt from Streaming Systems. We encourage you to put the information to use in your own applications. </mj-text>
+
+        <mj-button css-class="mainButton" href="#" align="left" font-size="14px" background-color="#880088" height="25px" font-weight="700" font-family="Lato, Arial">Download Now</mj-button>
+
+        <mj-text font-size="16px" line-height="24px" color="#1B1A21" font-family="Lato, Arial"> Regards, <br> The MemSQL Team </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    
+    <mj-raw>
+      <!-- Icons -->
+    </mj-raw>
+
+    <mj-section background-color="#1B1A21" padding-top="35px">
+      <mj-group width="300px">
+        <mj-column>
+          <mj-image href="#" width="10px" src="images/fb.png"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-image href="#" width="19px" src="images/tw.png"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-image href="#" width="22px" src="images/yt.png"></mj-image>
+        </mj-column>
+        <mj-column>
+          <mj-image href="#" width="16px" src="images/in.png"></mj-image>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section padding-bottom="0" padding-top="10px">
+      <mj-column>
+
+        <mj-text css-class="bottomButtons" align="center" color="#fff" font-size="12px" line-height="18px" font-family="Lato, Arial">
+          <a href="#" style="font-size: 12px; font-weight: 700; text-decoration: none; color: #fff"> PRODUCT </a>
+          <span style="padding-left: 15px; padding-right: 15px;">  |  </span>
+          <a href="#" style="font-size: 12px; font-weight: 700; text-decoration: none; color: #fff"> SOLUTIONS </a>
+          <span style="padding-left: 15px; padding-right: 15px;">  |  </span>
+          <a href="#" style="font-size: 12px; font-weight: 700; text-decoration: none; color: #fff"> BLOG </a>
+        </mj-text>
+        
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="bottomText" background-color="#1B1A21" padding-top="0">
+      <mj-column>
+        <mj-text align="center" color="#fff" font-size="12px" line-height="18px" font-family="Lato, Arial">
+          <span> MemSQL Inc. 534 Fourth Street,</span> 
+          <span> San Francisco, CA 94107 </span>  <br>
+         <span>  Manage Subscription  | </span> <a href="#" style="font-size: 12px; text-decoration: none; color: #fff; padding-left: 2px;"> View in Browser </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Logo Bottom -->
+    </mj-raw>
+
+    <mj-section background-color="#1B1A21" padding-top="0" padding-bottom="45px">
+      <mj-column>
+        <mj-image width="48px" src="images/logomark.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+  </mj-body>
+</mjml>
