@@ -37,19 +37,21 @@
     </mj-raw>
     <mj-section background-color="#1B1A21">
       <mj-column>
-        <mj-image width="144px" src="images/logo.png"></mj-image>
+        <mj-image width="144px" src="https://reperis.ro/tests/MemSQL/EmailTemplates/images/logo.png"></mj-image>
       </mj-column>
     </mj-section>
     <mj-raw>
       <!-- Company Header -->
     </mj-raw>
-    <mj-section background-color="#ffffff">
+    <mj-section background-color="#ffffff" padding-bottom="0">
       <mj-column width="600px">
         <mj-text font-size="16px" color="#AA00FF" font-weight="700" text-transform="uppercase" letter-spacing="1px" align="center" font-family="Lato, Arial">Free O’Reilly eBook</mj-text>
 
          <mj-text css-class="mainTitle" font-size="34px" line-height="42px" color="#1B1A21" font-weight="700" align="center" padding-bottom="25px" font-family="Lato, Arial">Streaming Systems: <br> The What, Where, When, and  <br> How of Large-Scale <br> Data Processing</mj-text>
 
-         <mj-button css-class="mainButton" href="#" font-size="14px" background-color="#880088" height="25px" font-weight="900" font-family="Lato, Arial" border-radius="4px">Download Now</mj-button>
+         <!-- <mj-button css-class="mainButton" href="#" font-size="14px" background-color="#880088" height="25px" font-weight="900" font-family="Lato, Arial" border-radius="4px">Download Now</mj-button> -->
+
+         <mj-image width="140px" src="https://reperis.ro/tests/MemSQL/EmailTemplates/images/buttonDownload1.png" href="https://www.google.com/" />
       </mj-column>
     </mj-section>
     <mj-raw>
@@ -57,7 +59,7 @@
     </mj-raw>
     <mj-section background-color="#ffffff">
       <mj-column width="600px">
-        <mj-image src="images/image.jpg"></mj-image>
+        <mj-image src="https://reperis.ro/tests/MemSQL/EmailTemplates/images/image.jpg"></mj-image>
       </mj-column>
     </mj-section>
     <mj-raw>
@@ -70,7 +72,9 @@
         <mj-text font-size="16px" line-height="24px" color="#1B1A21" font-family="Lato, Arial"> MemSQL is proud to offer this free O’Reilly ebook excerpt, Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing. We have made two chapters available which describe how streaming and batch data processing compare, as well as explain core principles and concepts required for robust out-of-order streaming data processing. </mj-text>
         <mj-text font-size="16px" line-height="24px" color="#1B1A21" font-family="Lato, Arial"> We hope you enjoy this excerpt from Streaming Systems. We encourage you to put the information to use in your own applications. </mj-text>
 
-        <mj-button css-class="mainButton" href="#" align="left" font-size="14px" background-color="#880088" height="25px" font-weight="700" font-family="Lato, Arial">Download Now</mj-button>
+        <!-- <mj-button css-class="mainButton" href="#" align="left" font-size="14px" background-color="#880088" height="25px" font-weight="700" font-family="Lato, Arial">Download Now</mj-button> -->
+
+        <mj-image width="140px" align="left" src="https://reperis.ro/tests/MemSQL/EmailTemplates/images/buttonDownload1.png" href="https://www.google.com/" />
 
         <mj-text font-size="16px" line-height="24px" color="#1B1A21" font-family="Lato, Arial"> Regards, <br> The MemSQL Team </mj-text>
 
@@ -85,16 +89,16 @@
     <mj-section background-color="#1B1A21" padding-top="35px">
       <mj-group width="300px">
         <mj-column>
-          <mj-image href="#" width="10px" src="images/fb.png"></mj-image>
+          <mj-image href="#" width="10px" src="https://reperis.ro/tests/MemSQL/EmailTemplates/images/fb.png"></mj-image>
         </mj-column>
         <mj-column>
-          <mj-image href="#" width="19px" src="images/tw.png"></mj-image>
+          <mj-image href="#" width="19px" src="https://reperis.ro/tests/MemSQL/EmailTemplates/images/tw.png"></mj-image>
         </mj-column>
         <mj-column>
-          <mj-image href="#" width="22px" src="images/yt.png"></mj-image>
+          <mj-image href="#" width="22px" src="https://reperis.ro/tests/MemSQL/EmailTemplates/images/yt.png"></mj-image>
         </mj-column>
         <mj-column>
-          <mj-image href="#" width="16px" src="images/in.png"></mj-image>
+          <mj-image href="#" width="16px" src="https://reperis.ro/tests/MemSQL/EmailTemplates/images/in.png"></mj-image>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -129,7 +133,7 @@
 
     <mj-section background-color="#1B1A21" padding-top="0" padding-bottom="45px">
       <mj-column>
-        <mj-image width="48px" src="images/logomark.png"></mj-image>
+        <mj-image width="48px" src="https://reperis.ro/tests/MemSQL/EmailTemplates/images/logomark.png"></mj-image>
       </mj-column>
     </mj-section>
     
